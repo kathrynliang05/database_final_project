@@ -209,7 +209,7 @@ try:
             records = cur.fetchall()
 
             print(
-                f'{"ID":<5} | {"Title":<36} | {"description":<50} | '
+                f'{"ID":<5} | {"Title":<36} | {"Description":<50} | '
                 f'{"Date/Time":<25} | {"Location":<25} | {"Librarian ID":<12} | '
                 f'{"Capacity":<8} | {"Demographic":<8}'
             )
